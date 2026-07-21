@@ -32,7 +32,7 @@ public class HospitalManagementSystem {
                 System.out.println("2. View Patient");
                 System.out.println("3. View Doctors");
                 System.out.println("4. Book Appointments");
-                System.out.println("4. Exit");
+                System.out.println("5. Exit");
                 System.out.println("Enter your choice");
                 int choice = scanner.nextInt();
 
@@ -114,7 +114,6 @@ public class HospitalManagementSystem {
             }
             return true;
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         return false;
